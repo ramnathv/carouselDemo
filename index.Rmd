@@ -131,11 +131,6 @@ cat(whisker::whisker.render(layout, carousel))
 
 ---
 
-```{r echo = F, eval = F, ref.label = 'carousel', results = 'asis'}
-```
-
----
-
 ## Note
 
 Slidify allows use of `bootstrap` directly by including it as a `widget` in the YAML front matter. The widgets themselves are loaded from [slidifyLibraries](http://github.com/ramnathv/slidifyLibraries) which is a support package consisting of external libraries used by Slidify.

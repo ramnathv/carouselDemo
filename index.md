@@ -195,11 +195,6 @@ See next two slides for the markup generated, and the final display
 
 ---
 
-
-
-
----
-
 ## Note
 
 Slidify allows use of `bootstrap` directly by including it as a `widget` in the YAML front matter. The widgets themselves are loaded from [slidifyLibraries](http://github.com/ramnathv/slidifyLibraries) which is a support package consisting of external libraries used by Slidify.
