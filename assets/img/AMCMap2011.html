@@ -1,0 +1,259 @@
+<!-- GeoMap generated in R 2.15.1 by googleVis 0.3.3 package -->
+<!-- Thu Nov 15 10:56:50 2012 -->
+
+
+<!-- jsHeader -->
+<script type="text/javascript" src="http://www.google.com/jsapi">
+</script>
+<script type="text/javascript">
+ 
+// jsData 
+function gvisDataGeoMapID77eaafbb1e ()
+{
+  var data = new google.visualization.DataTable();
+  var datajson =
+[
+ [
+ "AL",
+1 
+],
+[
+ "AU",
+1 
+],
+[
+ "AT",
+2 
+],
+[
+ "BE",
+2 
+],
+[
+ "BO",
+1 
+],
+[
+ "BG",
+1 
+],
+[
+ "CN",
+4 
+],
+[
+ "CO",
+1 
+],
+[
+ "HR",
+1 
+],
+[
+ "CZ",
+5 
+],
+[
+ "DK",
+1 
+],
+[
+ "EC",
+1 
+],
+[
+ "EE",
+1 
+],
+[
+ "FI",
+3 
+],
+[
+ "FR",
+3 
+],
+[
+ "DE",
+6 
+],
+[
+ "GH",
+1 
+],
+[
+ "GR",
+1 
+],
+[
+ "HN",
+1 
+],
+[
+ "HU",
+2 
+],
+[
+ "ID",
+3 
+],
+[
+ "IE",
+1 
+],
+[
+ "JM",
+1 
+],
+[
+ "JP",
+6 
+],
+[
+ "KZ",
+2 
+],
+[
+ "KR",
+2 
+],
+[
+ "KG",
+1 
+],
+[
+ "LT",
+1 
+],
+[
+ "MK",
+1 
+],
+[
+ "MY",
+3 
+],
+[
+ "MX",
+4 
+],
+[
+ "NG",
+1 
+],
+[
+ "RO",
+2 
+],
+[
+ "RU",
+2 
+],
+[
+ "SN",
+1 
+],
+[
+ "RS",
+2 
+],
+[
+ "SK",
+3 
+],
+[
+ "SI",
+1 
+],
+[
+ "ES",
+1 
+],
+[
+ "LK",
+1 
+],
+[
+ "SE",
+6 
+],
+[
+ "CH",
+1 
+],
+[
+ "TZ",
+1 
+],
+[
+ "TH",
+5 
+],
+[
+ "TR",
+1 
+],
+[
+ "UG",
+1 
+],
+[
+ "GB",
+3 
+],
+[
+ "US",
+5 
+],
+[
+ "UY",
+2 
+],
+[
+ "VN",
+2 
+] 
+];
+data.addColumn('string','ISOCode');
+data.addColumn('number','TotalAmcCreated');
+data.addRows(datajson);
+return(data);
+}
+ 
+// jsDrawChart
+function drawChartGeoMapID77eaafbb1e() {
+  var data = gvisDataGeoMapID77eaafbb1e();
+  var options = {};
+options["dataMode"] = "regions";
+options["width"] = "780px";
+options["height"] = "500px";
+options["colors"] = [0xECE7F2, 0xA6BDDB, 0x2B8CBE];
+
+     var chart = new google.visualization.GeoMap(
+       document.getElementById('GeoMapID77eaafbb1e')
+     );
+     chart.draw(data,options);
+    
+
+}
+  
+ 
+// jsDisplayChart 
+function displayChartGeoMapID77eaafbb1e()
+{
+  google.load("visualization", "1", { packages:["geomap"] }); 
+  google.setOnLoadCallback(drawChartGeoMapID77eaafbb1e);
+}
+ 
+// jsChart 
+displayChartGeoMapID77eaafbb1e()
+ 
+<!-- jsFooter -->  
+//-->
+</script>
+ 
+<!-- divChart -->
+  
+<div id="GeoMapID77eaafbb1e"
+  style="width: 780pxpx; height: 500pxpx;">
+</div>

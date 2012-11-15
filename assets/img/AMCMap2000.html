@@ -1,0 +1,223 @@
+<!-- GeoMap generated in R 2.15.1 by googleVis 0.3.3 package -->
+<!-- Thu Nov 15 10:35:04 2012 -->
+
+
+<!-- jsHeader -->
+<script type="text/javascript" src="http://www.google.com/jsapi">
+</script>
+<script type="text/javascript">
+ 
+// jsData 
+function gvisDataGeoMapID6e34643d0ee ()
+{
+  var data = new google.visualization.DataTable();
+  var datajson =
+[
+ [
+ "AL",
+1 
+],
+[
+ "AU",
+1 
+],
+[
+ "BO",
+1 
+],
+[
+ "BG",
+1 
+],
+[
+ "CN",
+4 
+],
+[
+ "CO",
+1 
+],
+[
+ "HR",
+1 
+],
+[
+ "CZ",
+4 
+],
+[
+ "EC",
+1 
+],
+[
+ "EE",
+1 
+],
+[
+ "FI",
+3 
+],
+[
+ "FR",
+1 
+],
+[
+ "GH",
+1 
+],
+[
+ "GR",
+1 
+],
+[
+ "HU",
+2 
+],
+[
+ "ID",
+2 
+],
+[
+ "JM",
+1 
+],
+[
+ "JP",
+4 
+],
+[
+ "KZ",
+2 
+],
+[
+ "KR",
+2 
+],
+[
+ "KG",
+1 
+],
+[
+ "LT",
+1 
+],
+[
+ "MK",
+1 
+],
+[
+ "MY",
+2 
+],
+[
+ "MX",
+4 
+],
+[
+ "PH",
+1 
+],
+[
+ "RO",
+1 
+],
+[
+ "RU",
+1 
+],
+[
+ "SN",
+1 
+],
+[
+ "SK",
+3 
+],
+[
+ "SI",
+1 
+],
+[
+ "ES",
+1 
+],
+[
+ "LK",
+1 
+],
+[
+ "SE",
+6 
+],
+[
+ "TZ",
+1 
+],
+[
+ "TH",
+5 
+],
+[
+ "TR",
+1 
+],
+[
+ "UG",
+1 
+],
+[
+ "US",
+2 
+],
+[
+ "UY",
+1 
+],
+[
+ "VN",
+1 
+] 
+];
+data.addColumn('string','ISOCode');
+data.addColumn('number','TotalAmcCreated');
+data.addRows(datajson);
+return(data);
+}
+ 
+// jsDrawChart
+function drawChartGeoMapID6e34643d0ee() {
+  var data = gvisDataGeoMapID6e34643d0ee();
+  var options = {};
+options["dataMode"] = "regions";
+options["width"] = "780px";
+options["height"] = "500px";
+options["colors"] = [0xECE7F2, 0xA6BDDB, 0x2B8CBE];
+
+     var chart = new google.visualization.GeoMap(
+       document.getElementById('GeoMapID6e34643d0ee')
+     );
+     chart.draw(data,options);
+    
+
+}
+  
+ 
+// jsDisplayChart 
+function displayChartGeoMapID6e34643d0ee()
+{
+  google.load("visualization", "1", { packages:["geomap"] }); 
+  google.setOnLoadCallback(drawChartGeoMapID6e34643d0ee);
+}
+ 
+// jsChart 
+displayChartGeoMapID6e34643d0ee()
+ 
+<!-- jsFooter -->  
+//-->
+</script>
+ 
+<!-- divChart -->
+  
+<div id="GeoMapID6e34643d0ee"
+  style="width: 780pxpx; height: 500pxpx;">
+</div>
