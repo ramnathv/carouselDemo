@@ -16,7 +16,7 @@ github:
 
 ## Introduction
 
-Recently, Christopher Gandrud posted an excellelent [blog article](http://christophergandrud.github.com/amc-site/maps.html) on how to display timeline maps using `googleVis` and `Twitter Bootstrap`. This slide deck is inspired by the article. 
+Recently, Christopher Gandrud posted an excellent [blog article](http://christophergandrud.github.com/amc-site/maps.html) on how to display timeline maps using `googleVis` and `Twitter Bootstrap`. This slide deck is inspired by the article. 
 
 The main objective of this slide deck is to illustrate
 
